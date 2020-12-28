@@ -1,6 +1,14 @@
 # whist-online
 An implementation of the whist card game to be played online.
 
+Front end of the Whist App, as well as the 'local play' side of things.
+
+To build:
+scoreboard
+cards
+num players -> deck
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

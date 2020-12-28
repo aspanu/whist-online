@@ -1,0 +1,40 @@
+.playerNameColumn {
+    text-align: center;
+    width: 100px;
+    border-bottom: solid grey;
+}
+
+.handSizeColumn {
+    text-align: center;
+    width: 30px;
+    border-right: thick double grey;
+    border-bottom: 1px solid grey;
+}
+
+.bidColumn {
+    text-align: center;
+    width: 30px;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.scoreColumn {
+    text-align: center;
+    font-style: italic;
+    width: 70px;
+    border-right: thick double grey;
+    border-bottom: 1px solid grey;
+}
+
+.scoreRow {
+    border-bottom: 1px solid grey;
+}
+
+table {
+    border-spacing: 0;
+}
+
+th,
+td {
+    border-bottom: small solid grey;
+}
