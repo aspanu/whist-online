@@ -1,13 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import ScoreTable from "./scores/ScoreTable";
+import "./App.css";
+import Board from "./components/board/Board";
 
 function App() {
-  const names = ["Adrian", "Belle", "Tavi", "Tracey", "Jon"];
+  // const names = ["Adrian", "Belle", "Tavi", "Tracey", "Jon"];
   return (
     <div className="App">
-      <ScoreTable playerNames={names} />
+      <Board numPlayers={5} />
     </div>
   );
 }
