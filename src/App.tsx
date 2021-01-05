@@ -5,7 +5,7 @@ function App() {
   // const names = ["Adrian", "Belle", "Tavi", "Tracey", "Jon"];
   return (
     <div className="App">
-      <Board numPlayers={5} />
+      <Board />
     </div>
   );
 }

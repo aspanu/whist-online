@@ -1,0 +1,28 @@
+.hand {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    max-width: 20em;
+}
+
+.cardWrapper {
+    overflow: hidden;
+}
+
+.cardWrapper:last-child,
+.cardWrapper:hover {
+    overflow: visible;
+}
+
+.card {
+    width: 8em;
+    min-width: 8em;
+    height: 14em;
+    border-radius: 0.5em;
+    padding: 0em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
