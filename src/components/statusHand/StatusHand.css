@@ -1,0 +1,4 @@
+.statusHand {
+    display: flex;
+    flex-direction: row;
+}
