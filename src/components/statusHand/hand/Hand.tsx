@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hand.css";
-import jack from "../../../assets/images/jack-hearts.png";
+import sampleCard from "../../../assets/images/sampleCard.png"
 
 interface Props {}
 
@@ -10,25 +10,25 @@ class Hand extends React.Component<Props> {
     return (
       <div className="hand">
         <div className="cardWrapper">
-          <img className="card" src={jack} />
+          <img className="card" src={sampleCard} />
         </div>
         <div className="cardWrapper">
-          <img className="card" src={jack} />
+          <img className="card" src={sampleCard} />
         </div>
         <div className="cardWrapper">
-          <img className="card" src={jack} />
+          <img className="card" src={sampleCard} />
         </div>
         <div className="cardWrapper">
-          <img className="card" src={jack} />
+          <img className="card" src={sampleCard} />
         </div>
         <div className="cardWrapper">
-          <img className="card" src={jack} />
+          <img className="card" src={sampleCard} />
         </div>
         <div className="cardWrapper">
-          <img className="card" src={jack} />
+          <img className="card" src={sampleCard} />
         </div>
         <div className="cardWrapper">
-          <img className="card" src={jack} />
+          <img className="card" src={sampleCard} />``
         </div>
       </div>
     );
