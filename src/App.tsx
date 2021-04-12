@@ -1,5 +1,5 @@
 import "./App.css";
-import Board from "./components/board/Board";
+import Board from "./components/boards/Board";
 
 function App() {
   // const names = ["Adrian", "Belle", "Tavi", "Tracey", "Jon"];
