@@ -1,4 +1,5 @@
 import React from "react";
+import "./SingleCardDisplay.css";
 import Card from "../../model/Card";
 
 interface Props {
@@ -7,10 +8,10 @@ interface Props {
 
 class SingleCardDisplay extends React.Component<Props> {
   render() {
-    // TODO: Add something which maps from the enum to the picture
+    // TODO: Perhaps also add something which says what size to display this as?
     return (
-      <div className="cardDisplay">
-          <p>{this.props.card}</p>
+      <div>
+          <img className="cardDisplay" src={this.props.card.image} alt={this.props.card.altText}/>
       </div>
     );
   }

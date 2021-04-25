@@ -2,6 +2,7 @@ import React from "react";
 import Hand from "../statusHand/hand/Hand";
 import "./Board.css";
 import StatusHand from "../statusHand/StatusHand";
+import PlayerStatus from "../playerStatus/PlayerStatus";
 
 interface Props {}
 
@@ -12,18 +13,7 @@ class Board extends React.Component<Props> {
         <div className="myHand">
           <StatusHand  />
         </div>
-        <div className="opponentHand">
-          <Hand />
-        </div>
-        <div className="opponetHand">
-          <Hand />
-        </div>
-        <div className="opponentHand">
-          <Hand />
-        </div>
-        <div className="opponentHand">
-          <Hand />
-        </div>
+        <PlayerStatus name="Belle" bid={3} tricks={4}/>
       </div>
     );
   }

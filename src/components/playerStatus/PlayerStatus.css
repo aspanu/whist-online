@@ -1,0 +1,18 @@
+.playerStatus {
+    border-radius: 0.5em;
+    border-width: 0.2em;
+    border-color: dimgray;
+
+    background-color: antiquewhite;
+
+    width: 5em;
+    height: 7em;
+
+    position: relative;
+}
+
+.playerStatusContent {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}

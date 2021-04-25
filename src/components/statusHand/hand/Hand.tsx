@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hand.css";
-import sampleCard from "../../../assets/images/sampleCard.png"
+import sampleCard from "../../../assets/images/cards/sampleCard.png"
 
 interface Props {}
 
