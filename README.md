@@ -8,6 +8,7 @@ scoreboard
 cards
 num players -> deck
 
+[Instructions for how to play the game](PlayingInstructions.md)
 
 # Getting Started with Create React App
 
