@@ -66,6 +66,7 @@ class CardMetadata {
 
 const cardMetadataMap = new Map([
     [Card.ACE_CLUBS, new CardMetadata(ace_clubs, "the ace of clubs")],
+    [Card.TWO_CLUBS, new CardMetadata(two_clubs, "the ace of clubs")],
     // TODO: codegen the rest of the map
 ])
 
