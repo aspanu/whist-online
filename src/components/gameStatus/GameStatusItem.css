@@ -1,0 +1,21 @@
+#container {
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 85px;
+    height: 85px;
+    background: #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#name {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#amount {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3px;
+}

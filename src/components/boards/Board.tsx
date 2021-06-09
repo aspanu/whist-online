@@ -2,7 +2,8 @@ import React from "react";
 import Hand from "../statusHand/hand/Hand";
 import "./Board.css";
 import StatusHand from "../statusHand/StatusHand";
-import PlayerStatus from "../playerStatus/PlayerStatus";
+import PlayerStatus from "../players/PlayerStatus";
+import PlayerPill from "../players/PlayerPill";
 
 interface Props {}
 
@@ -11,9 +12,9 @@ class Board extends React.Component<Props> {
     return (
       <div className="background">
         <div className="myHand">
-          <StatusHand  />
+          <StatusHand />
         </div>
-        <PlayerStatus name="Belle" bid={3} tricks={4}/>
+        <PlayerPill />
       </div>
     );
   }

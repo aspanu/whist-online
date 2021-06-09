@@ -1,0 +1,29 @@
+#player_pill_container {
+    display: flex;
+    justify-content: left;
+}
+
+#profile_pic {
+    background: black;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 10px solid #979797;
+    /* TODO: add a profile picture here */
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+}
+
+
+#player_info {
+    background: #C6C4C4;
+    border: 10px solid #979797;
+    border-radius: 40px;
+    height: 60px;
+    width: 180px;
+    z-index: -1;
+    position: relative;
+    margin-left: -60px;
+    margin-top: 10px;
+}
