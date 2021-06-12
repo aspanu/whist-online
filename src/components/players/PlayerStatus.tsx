@@ -5,12 +5,14 @@ interface Props {
     name: string,
     bid: number,
     tricks: number,
+    direction: string,
 }
 
 class PlayerStatus extends React.Component<Props> {
     render() {
+        const content_id = "content_" + this.props.direction
         return (
-            <div id="content">
+            <div id={content_id}>
                 <div id="name">{this.props.name}</div>
                 <div id="bid">{this.props.bid}</div>
                 <div id="separator">|</div>

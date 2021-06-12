@@ -1,9 +1,16 @@
-#player_pill_container {
+#player_pill_container_right {
     display: flex;
     justify-content: left;
+    width: fit-content;
 }
 
-#profile_pic {
+#player_pill_container_left {
+    display: flex;
+    justify-content: right;
+    width: fit-content;
+}
+
+#profile_pic_right {
     background: black;
     height: 80px;
     width: 80px;
@@ -15,8 +22,20 @@
     margin: 0px;
 }
 
+#profile_pic_left {
+    background: black;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 10px solid #979797;
+    /* TODO: add a profile picture here */
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    margin-left: -60px;
+}
 
-#player_info {
+#player_info_right {
     background: #C6C4C4;
     border: 10px solid #979797;
     border-radius: 40px;
@@ -25,5 +44,16 @@
     z-index: -1;
     position: relative;
     margin-left: -60px;
+    margin-top: 10px;
+}
+
+#player_info_left {
+    background: #C6C4C4;
+    border: 10px solid #979797;
+    border-radius: 40px;
+    height: 60px;
+    width: 180px;
+    z-index: -1;
+    position: relative;
     margin-top: 10px;
 }

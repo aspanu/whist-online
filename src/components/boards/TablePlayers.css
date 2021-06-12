@@ -1,0 +1,27 @@
+#player_one {
+    position: fixed;
+    margin-top: -60px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+#player_two {
+    position: fixed;
+    margin-top: -530px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+#player_three {
+    position: fixed;
+    margin-top: -530px;
+    margin-left: 960px;
+    z-index: 1;
+}
+
+#player_four {
+    position: fixed;
+    margin-top: -60px;
+    margin-left: 960px;
+    z-index: 1;
+}

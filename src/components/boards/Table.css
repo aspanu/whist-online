@@ -1,0 +1,25 @@
+#table_edge {
+    height: 500px;
+    width: 1200px;
+    left: 0px;
+    top: 0px;
+    border-radius: 295.5px;
+    background: #828282;
+    box-shadow: 2px 2px 4px 0px #00000080;   
+}
+
+#table_surface {
+    position: relative;
+    left: 2.08%;
+    right: 2.08%;
+    top: 5%;
+    bottom: 5%;
+    height: 450px;
+    width: 1150px;
+    left: 25px;
+    top: 25px;
+    border-radius: 295.5px;
+    background: #C6C4C4;
+    border: 10px solid #535151;
+    box-sizing: border-box;
+}
