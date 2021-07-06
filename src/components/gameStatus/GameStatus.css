@@ -14,3 +14,13 @@
     margin-left: 45px;
     margin-top: -40px;
 }
+
+#settings {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background: url('../../assets/images/gear-icon.png') no-repeat center;
+    background-size: 50px;
+    margin-top: -35px;
+    margin-left: -10px;
+}

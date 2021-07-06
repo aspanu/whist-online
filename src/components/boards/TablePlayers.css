@@ -1,3 +1,8 @@
+#table_players {
+    position: relative;
+    margin-top: 50px;
+}
+
 #player_one {
     position: fixed;
     margin-top: -60px;

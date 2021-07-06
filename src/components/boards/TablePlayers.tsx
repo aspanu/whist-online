@@ -7,7 +7,7 @@ interface Props {}
 
 class TablePlayers extends React.Component<Props> {
     render() {
-        return <div >
+        return <div id="table_players">
                 <Table />
                 <div id="player_one"><PlayerPill right_direction={false} /> </div>
                 <div id="player_two"><PlayerPill right_direction={false} /> </div>

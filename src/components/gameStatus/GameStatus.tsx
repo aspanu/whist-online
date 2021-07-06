@@ -9,6 +9,7 @@ class GameStatus extends React.Component<Props> {
         return <div id="container">
             <div id="hand" ><GameStatusItem name="Hand" amount={1} /></div>
             <div id="tricks"><GameStatusItem name="Tricks" amount={1} /></div>
+            <div id="settings"/>
         </div>
     }
 }
